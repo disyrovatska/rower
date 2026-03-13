@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Venison</title>
+
+<style>
+body{
+    margin:0;
+    font-family: "Georgia", serif;
+    background-color:#0f0f0f;
+    color:#f5f5f5;
+}
+
+header{
+    height:100vh;
+    background:url("https://images.unsplash.com/photo-1544025162-d76694265947") center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+header h1{
+    font-size:70px;
+    letter-spacing:3px;
+    color:#d4af37;
+    margin:0;
+}
+
+header p{
+    font-size:22px;
+    max-width:600px;
+}
+
+.btn{
+    margin-top:30px;
+    padding:15px 35px;
+    border:2px solid #d4af37;
+    color:#d4af37;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#d4af37;
+    color:#000;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    font-size:40px;
+    color:#d4af37;
+    margin-bottom:40px;
+}
+
+.products{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:#1a1a1a;
+    padding:30px;
+    width:300px;
+    border:1px solid #333;
+    text-align:center;
+}
+
+.price{
+    font-size:26px;
+    color:#d4af37;
+    margin-top:10px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:30px;
+    color:#aaa;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>ROYAL VENISON</h1>
+<p>Luksusowe mięso z sarny pochodzącej z wyjątkowo czystych terenów wodnych. 
+Produkt premium dla najbardziej wymagających smakoszy.</p>
+
+<a href="#produkty" class="btn">Zobacz ofertę</a>
+</header>
+
+<section id="o-nas">
+<h2>O Nas</h2>
+<p style="max-width:800px;margin:auto;text-align:center;">
+Nasza firma specjalizuje się w sprzedaży ekskluzywnego mięsa z sarny. 
+Zwierzęta pochodzą z terenów o wyjątkowo czystej wodzie i naturalnym środowisku,
+co nadaje mięsu wyjątkowy smak i jakość. 
+Każdy kawałek jest starannie selekcjonowany i przygotowany dla restauracji
+oraz klientów premium.
+</p>
+</section>
+
+<section id="produkty">
+<h2>Nasze Produkty</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>Polędwica z sarny</h3>
+<p>Najdelikatniejsza część mięsa, idealna do dań gourmet.</p>
+<div class="price">890 zł / kg</div>
+</div>
+
+<div class="card">
+<h3>Stek z sarny</h3>
+<p>Ekskluzywny stek o głębokim aromacie i wyjątkowej strukturze.</p>
+<div class="price">760 zł / kg</div>
+</div>
+
+<div class="card">
+<h3>Karcze z sarny</h3>
+<p>Mięso dla najlepszych restauracji i szefów kuchni.</p>
+<div class="price">640 zł / kg</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Kontakt</h2>
+<p style="text-align:center;">
+📍 Warszawa<br>
+📞 +48 555 222 111<br>
+✉ kontakt@royalvenison.pl
+</p>
+</section>
+
+<footer>
+© 2026 Royal Venison – Ekskluzywne mięso z sarny
+</footer>
+
+</body>
+</html>
